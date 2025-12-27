@@ -1,0 +1,17 @@
+# PyCharm project files
+.idea/
+
+# Virtual environment
+venv/
+.venv/
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+.env
+_pycache_/
+*.faiss
+*.pkl
+uploads/
+data/
