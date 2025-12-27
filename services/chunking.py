@@ -27,7 +27,7 @@ def chunk_text(text:str,chunk_size=500,overlap=100):
 def create_chunks_with_metadata(page_data):
     all_chunks = []
     for page in page_data:
-        p_num=page_data["page"]
+        p_num=page["page"]
         p_text=clean_text(page["text"])
         if p_text:
             text_chunks=chunk_text(p_text)
